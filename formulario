@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+	<meta charset="UTF-8">
+    <link rel="shortcut icon" href="galeria/logos/icones/android-chrome-512x512.png" type="image/x-icon">
+	<title>Contato</title>
+
+	<style>
+    
+    :root{
+        font-size: 100%;
+    }
+
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 0;
+        min-height: 150vh;
+        font-weight: bold; 
+        color: black;
+    }
+
+        .container{
+        display: grid;
+        grid-template-columns: 0.5fr 8fr 0.5fr;
+        grid-template-rows: 15vh 115vh 20vh;
+        grid-template-areas: 
+        "h h h"
+        "m m a"
+        "f f f"
+    }
+
+    header{   
+        background-color: #092fa1;
+        font-weight: bold;
+        grid-area: h;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+        padding: 0;
+        font-size: 1rem;      
+    }
+
+    header ul{
+        list-style-type: none;
+        display: flex;
+        margin-top: auto;
+    }
+
+    header a{
+        margin-bottom: 10px; 
+    }
+
+    li{
+        margin-left: 10px;
+        color: #ececeb;
+    }   
+
+    img{
+        border-radius: 30px;
+        margin: 0;
+        padding: 0;
+    }
+
+    a:hover{
+        color: #ff6600;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    a{
+        color: #ececeb;
+        text-decoration: none;
+        list-style:none;
+        text-align: center;
+    }
+
+    h1{
+        padding: 0;
+        margin: 10px;
+        color: #092fa1;
+    }
+
+    main div{
+        height: 800px;
+        width: 1000px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+        background-color: #ececea;
+        border: 1px #ff6600 solid;
+        padding: 5px;  
+        font-size: 1rem;    
+    }
+
+    aside{
+        background-color: #ececeb;
+        grid-area: a; 
+        padding: 5px;
+        text-align: right;
+    }
+
+    main{
+        background-color: #ececeb;
+        grid-area: m; 
+        padding: 5px;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    main form {
+        text-align: left;
+    }
+
+    footer{
+        background-color: #092fa1;   
+        grid-area: f; 
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    #box1{
+        position:fixed;
+        top: 150px;
+        z-index: 1;
+        right: 0px;
+    }
+
+    #box2{
+        position:fixed;
+        top: 180px;
+        z-index: 1;
+        right: 0px;
+    }
+
+    #box3{
+        position:fixed;
+        top: 210px;
+        z-index: 1;
+        right: 0px;
+    }
+
+    .container1{
+        background-color: #092fa1;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 10vh;
+        grid-template-areas: 
+        "h h"
+        "m m"
+    }
+
+    p{
+        margin: 10px;
+        padding: 0;
+    }
+
+    .container2{
+
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 10vh;
+        grid-template-areas: 
+        "a i" ;
+        color: #ececeb;
+    }
+
+    address{
+        display: inline-block;
+        text-align: right;
+        margin: 40px;
+    }
+
+    iframe {
+        width: 300px;
+        height: 120px;
+        margin-top: 20px;
+        grid-area: i;
+    }
+
+	</style>
+
+</head>
+
+<body>
+
+	<div class="container">
+
+        <header>
+        <div class="container1">
+        <a href="../Nova_pasta/empresa.html"><img src="imagens/logo1.png" alt="logomarca">
+        </a>
+        
+            <ul>
+                <li><a href="../Nova_pasta/empresa.html"> HOME |</a></li>
+                <li><a href="../Nova_pasta/nossos_espacos.html"> NOSSOS ESPAÇOS |</a></li>
+                <li><a href="../Nova_pasta/quem_somos.html"> QUEM SOMOS |</a></li>
+                <li><a href="../Nova_pasta/formulario.html"> CONTATO |</a></li>
+            </ul>
+
+        </div>
+        </header>
+
+    <aside>
+
+        <a href="https://instagram.com/coworking013?igshid=MzRlODBiNWFlZA==" target="_blank"><img src="imagens/insta.png" height="30px" width="30px" id="box1" alt="instagram"></a>
+        <a href="https://api.whatsapp.com/send?phone=%2B5513988050358&amp;data=AWAx2OuC7_83sk8ED
+                SZt6C7yJ8EVOLjA4JCQ8UM3ZYcedCaUZXvgKXENIAEJu6YVk4BHBdHnr0JS__lAkUtjZLG
+                PN72GANkEhCmznad2fcO0jL8xIjhL2aHwrOb8QPhg9UjbOmpzIUo52sYOlqfxYRRyQ2m5Q
+                p_R2DwkztOt2scREqIMF-sKb48I1C4OsQL5b40b0g_ls2RHK1ZA-
+                L8Zkbny0h875dHGGUsi28TEnlYlEdURs2eZR0r3AnQVfwVhQGKEibAd5Gcwg3C1-5wn-
+                gseTT11CIcIgKArbmsGzZXnMHI2at8&amp;source=FB_Page&amp;app=facebook&amp;entry_point=page_cta"><img src="imagens/whats.png" height="30px" width="30px" id="box2" target="_blank" alt="whatsapp"></a>
+        <a href="https://www.facebook.com/coworking013?mibextid=ZbWKwL" target="_blank"><img src="imagens/face.png" height="30px" width="30px" id="box3" alt="facebook"></a>
+
+
+    </aside>
+    <main>
+        <h1>Realize seu cadastro</h1>
+
+        <div>
+            <img src="imagens/logo2.png" alt="logo_coworking_2" width="200px" height="150px">
+            
+			<form method="post" action="contato@coworking013.com.br">
+
+			<p>
+				<label for="nome">Nome</label><br> <input type="text" name="nome" id="nome" minlength="20" maxlength="50" required autofocus placeholder="Nome completo"> 
+				
+			</p>
+			
+			<p>
+				<label for="mensagem">Solicite seu orçamento</label><br>
+				<textarea name="mensagem" id="mensagem" rows="5" cols="50"></textarea>
+			</p>
+			
+			<p>
+				<label for="salas">Qual tipo de espaço deseja alugar?</label><br>
+				
+					<select name="salas" id="salas">
+					
+						<option value="">Escolha...</option>
+						<option value="com">Comerciais</option>
+						<option value="cli">Clinica</option>
+						<option value="est">Estética</option>
+						<option value="reu">Reuniões</option>
+				
+					</select>
+			</p>
+			
+			<fieldset>
+			
+					<legend>Aceito ser contatado por:</legend>
+				
+						<input type="checkbox" name="Telefone" id="tel" value="sim"> <label for="tel">Telefone</label>
+						<input type="checkbox" name="email" id="email" value="sim"> <label for="email">E-mail</label>
+						<input type="checkbox" name="Whatsapp" id="w" value="wt"> <label for="w">Whatsapp</label>
+						<input type="checkbox" name="instagram" id="inst" value="in"> <label for="inst">Instagram</label>
+					
+			</fieldset>
+			
+			<p>
+				<label for="telefone">Telefone</label><br>
+				<input type="tel" name="telefone" id="telefone" placeholder="Ex.: DDD 00000-0000"> 
+			</p>
+			
+			<p>
+				<label for="url_site">Qual site da sua empresa</label><br>
+				<input type="url" name="url_site" id="url_site"> 
+			</p>
+			
+			<p>
+				<label for="e-mail">Seu e-mail</label><br>
+				<input type="email" name="e-mail" id="e-mail" placeholder="aaa@gmail.com"> 
+			</p>
+			
+			<p>
+				<label for="date">Qual data gostaria de reservar</label><br>
+				<input type="date" name="date" id="date">
+			</p>
+			
+			<p>
+				<label for="satisfacao">Dê uma nota para nosso Site</label><br>
+				<input type="range" name="satisfacao" id="satisfacao" min="0" max="10>
+			</p>
+			
+			<p>
+				<input type="hidden" name="id_preenchimento" value="326515261561212666"> 
+			</p>
+			
+					<button>Enviar</button>
+			
+			</form>
+        </div>
+    </main>
+
+    <footer>
+    
+<div class="container2">
+    <address>
+            Av. Pres. Costa e Silva, 609 - Sala 906<br>
+            Boqueirão, Praia Grande - SP, 11701-000<br>
+            Telefone: (13) 98805-0358<br>
+            &copy; 2023 coworking013.com<br>
+    </address>
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.6554621889873!2d-46.416542423804!3d-24.007940678152302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1db3c182e3c9%3A0x3367fd7078b15874!2sAv.%20Pres.%20Costa%20e%20Silva%2C%20609%20-%20Boqueir%C3%A3o%2C%20Praia%20Grande%20-%20SP%2C%2011701-000!5e0!3m2!1spt-BR!2sbr!4v1684975679682!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+</div>
+    </footer>
+    </div>
+
+</body>
+</html>
