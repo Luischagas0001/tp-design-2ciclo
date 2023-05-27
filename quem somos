@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="galeria/logos/icones/android-chrome-512x512.png" type="image/x-icon">
+    <title>Quem somos | Coworking</title>
+    
+    <style>
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        margin:0;
+        padding: 0;
+        min-height: 135vh;
+        font-weight: bold; 
+        color: black;
+}
+
+        .container{
+        display: grid;
+        grid-template-columns: 0.5fr 8fr 0.5fr;
+        grid-template-rows: 15vh 100vh 20vh;
+        grid-template-areas: 
+        "h h h"
+        "m m a"
+        "f f f"
+}
+
+    header{   
+        background-color: #092fa1;
+        font-weight: bold;
+        grid-area: h;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+        padding: 0;      
+}
+
+    header ul{
+        list-style-type: none;
+        display: flex;
+        margin-top: auto;
+}
+
+    header a{
+        margin-bottom: 10px;
+    }
+
+    li{
+        margin-left: 10px;
+        color: #ececeb;
+}
+
+
+    img{
+        border-radius: 30px;
+        margin: 0;
+        padding: 0;
+    }
+
+    a:hover{
+        color: #ff6600;
+        font-weight: bold;
+        text-decoration: none;
+}
+
+    a{
+        color: #ececeb;
+        text-decoration: none;
+        list-style:none;
+        text-align: center;
+}
+
+    h1{
+        padding: 0;
+        margin: 10px;
+        color: #092fa1;
+}
+
+    main div{
+        height: 500px;
+        width: 1000px;
+        display: inline-block;
+        float: center;
+        border-radius: 10px;
+        margin: 20px;
+        background-color: #ececea;
+        border: 1px #ff6600 solid;
+        padding: 5px;
+}
+
+    aside{
+        background-color: #ececeb;
+        grid-area: a; 
+        padding: 5px;
+        text-align: right;
+}
+
+    main{
+        background-color: #ececeb;
+        grid-area: m; 
+        padding: 5px;
+        text-align: center;
+    }
+
+    footer{
+        background-color: #092fa1;   
+        grid-area: f; 
+        text-align: center;
+        font-size: 1rem;
+}
+
+    #box1{
+        position:fixed;
+        top: 150px;
+        z-index: 1;
+        right: 0px;
+}
+
+    #box2{
+        position:fixed;
+        top: 180px;
+        z-index: 1;
+        right: 0px;
+}
+
+    #box3{
+        position:fixed;
+        top: 210px;
+        z-index: 1;
+        right: 0px;
+}
+
+    .container1{
+        background-color: #092fa1;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 10vh;
+        grid-template-areas: 
+        "h h"
+        "m m"
+}
+
+    .divfooter{
+        display: inline-flex;
+        background-color: #092fa1;
+        border-left: 1px #ececeb solid;
+        height: 100px;
+        width: 300px;
+        font-size: 13px;
+        margin-top: 10px;
+}
+
+    p{
+        margin: 10px;
+        padding: 0;
+}
+
+    .container2{
+
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 10vh;
+        grid-template-areas: 
+        "a i" ;
+        color: #ececeb;
+}
+
+    address{
+        display: inline-block;
+        text-align: right;
+        margin: 40px;
+}
+
+    iframe {
+        width: 300px;
+        height: 120px;
+        margin-top: 20px;
+        grid-area: i;
+}
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+        <div class="container1">
+        <a href="../Nova_pasta/empresa.html"><img src="imagens/logo1.png" alt="logomarca">
+        </a>
+        
+            <ul>
+                <li><a href="../Nova_pasta/empresa.html"> HOME |</a></li>
+                <li><a href="../Nova_pasta/nossos_espacos.html"> NOSSOS ESPAÇOS |</a></li>
+                <li><a href="../Nova_pasta/quem_somos.html"> QUEM SOMOS |</a></li>
+                <li><a href="../Nova_pasta/formulario.html"> CONTATO |</a></li>
+            </ul>
+
+        </div>
+        </header>
+
+    <aside>
+
+        <a href="https://instagram.com/coworking013?igshid=MzRlODBiNWFlZA==" target="_blank"><img src="imagens/insta.png" height="30px" width="30px" id="box1" alt="instagram"></a>
+        <a href="https://api.whatsapp.com/send?phone=%2B5513988050358&amp;data=AWAx2OuC7_83sk8ED
+                SZt6C7yJ8EVOLjA4JCQ8UM3ZYcedCaUZXvgKXENIAEJu6YVk4BHBdHnr0JS__lAkUtjZLG
+                PN72GANkEhCmznad2fcO0jL8xIjhL2aHwrOb8QPhg9UjbOmpzIUo52sYOlqfxYRRyQ2m5Q
+                p_R2DwkztOt2scREqIMF-sKb48I1C4OsQL5b40b0g_ls2RHK1ZA-
+                L8Zkbny0h875dHGGUsi28TEnlYlEdURs2eZR0r3AnQVfwVhQGKEibAd5Gcwg3C1-5wn-
+                gseTT11CIcIgKArbmsGzZXnMHI2at8&amp;source=FB_Page&amp;app=facebook&amp;entry_point=page_cta"><img src="imagens/whats.png" height="30px" width="30px" id="box2" target="_blank" alt="whatsapp"></a>
+        <a href="https://www.facebook.com/coworking013?mibextid=ZbWKwL" target="_blank"><img src="imagens/face.png" height="30px" width="30px" id="box3" alt="facebook"></a>
+
+
+    </aside>
+    <main>
+        <h1>Nossa História</h1>
+
+        <div>
+            <img src="imagens/logo2.png" alt="logo_coworking_2" width="200px" height="150px">
+            <p>
+                O Coworking 013 foi fundado em 2017, é uma empresa que oferece diversos serviços, como a 
+                locação de sala e espaços com toda a infraestrutura que o empresário precisa para trabalhar 
+                sem a necessidade de fazer um investimento inicial e sem preocupações típicas de um escritório
+                como comprar e trocar uma lâmpada queimada ou comprar e repor o sabonete líquido do banheiro, nós 
+                trabalhamos para que o foco dos nossos clientes seja exclusivamente o negócio deles. Nossa missão
+                é entregar o escritório pronto com luz, água, internet, os serviços de copa e limpeza tudo em um único
+                pagamento mensal. Nossos contratos são pré-pagos sem burocracia e sem a necessidade de fiador ou depósito.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+    
+    <div class="container2">
+        <address>
+                Av. Pres. Costa e Silva, 609 - Sala 906<br>
+                Boqueirão, Praia Grande - SP, 11701-000<br>
+                Telefone: (13) 98805-0358<br>
+                &copy; 2023 coworking013.com<br>
+        </address>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.6554621889873!2d-46.416542423804!3d-24.007940678152302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1db3c182e3c9%3A0x3367fd7078b15874!2sAv.%20Pres.%20Costa%20e%20Silva%2C%20609%20-%20Boqueir%C3%A3o%2C%20Praia%20Grande%20-%20SP%2C%2011701-000!5e0!3m2!1spt-BR!2sbr!4v1684975679682!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    </div>
+    </footer>
+    </div>
+
+</body>
+
+</html>
